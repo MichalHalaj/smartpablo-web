@@ -1,0 +1,14 @@
+.flex {
+    &-container {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+
+
+        & .vertical-middle {
+            -ms-flex-item-align: center;
+            align-self: center;
+        }
+    }
+}

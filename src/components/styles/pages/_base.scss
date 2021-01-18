@@ -1,0 +1,34 @@
+.hero-section {
+
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+
+    text-align: center;
+    margin: 0 auto;
+
+
+    & .hero-title {
+        font-size: 3rem;
+        line-height: 1;
+  
+        h1,
+        .heading {
+          margin-bottom: 0;
+          line-height: 1.2;
+        }
+  
+        p,
+        .sub-title {
+          margin-bottom: 0;
+        }
+      }
+
+    .lead {
+        margin-bottom: 0;
+    }
+
+    .cta,
+    .actions {
+        margin-top: 2rem;
+    }
+}

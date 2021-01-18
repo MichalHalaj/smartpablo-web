@@ -1,0 +1,599 @@
+backend:
+  name: git-gateway
+  use_large_media_transforms_in_media_library: false
+media_folder: static/assets
+public_folder: /assets
+collections:
+  - label: Translations
+    name: translations
+    files:
+      - label: English
+        name: english
+        file: src/intl/en.json
+        fields:
+          - label: Global - loginURL
+            name: global.loginURL
+            widget: string
+          - label: Global - signupURL
+            name: global.signupURL
+            widget: string
+          - label: Header - logo - url
+            name: header.logo.url
+            widget: image
+          - label: Header - logo - alt
+            name: header.logo.alt
+            widget: string
+          - label: Header - menu - pricing
+            name: header.menu.pricing
+            widget: string
+          - label: Header - menu - login
+            name: header.menu.login
+            widget: string
+          - label: Header - menu - signup
+            name: header.menu.signup
+            widget: string
+          - label: Footer - logo - url
+            name: footer.logo.url
+            widget: image
+          - label: Footer - logo - alt
+            name: footer.logo.alt
+            widget: string
+          - label: Footer - menu - home
+            name: footer.menu.home
+            widget: string
+          - label: Footer - social - facebook
+            name: footer.social.facebook
+            widget: string
+          - label: Footer - social - twitter
+            name: footer.social.twitter
+            widget: string
+          - label: Footer - social - linkedin
+            name: footer.social.linkedin
+            widget: string
+          - label: Footer - social - instagram
+            name: footer.social.instagram
+            widget: string
+          - label: Home - page title
+            name: home.pageTitle
+            widget: string
+          - label: Home - hero - heading - first
+            name: home.heroSection.heading.first
+            widget: string
+          - label: Home - hero - heading - second
+            name: home.heroSection.heading.second
+            widget: string
+          - label: Home - hero - text
+            name: home.heroSection.text
+            widget: string
+          - label: Home - hero - button
+            name: home.heroSection.button
+            widget: string
+          - label: Home - hero - image
+            name: home.heroSection.image.url
+            widget: image
+          - label: Home - hero - image - alt
+            name: home.heroSection.image.alt
+            widget: string
+          - label: Home - meet - heading
+            name: home.meetSection.heading
+            widget: string
+          - label: Home - meet - text
+            name: home.meetSection.text
+            widget: string
+          - label: Home - meet - button
+            name: home.meetSection.button
+            widget: string
+          - label: Home - meet - image
+            name: home.meetSection.image.url
+            widget: image
+          - label: Home - meet - image - alt
+            name: home.meetSection.image.alt
+            widget: string
+          - label: Home - features - heading
+            name: home.featureSection.heading
+            widget: string
+          - label: Home - features - first - title
+            name: home.featureSection.features.0.title
+            widget: string
+          - label: Home - features - first - text
+            name: home.featureSection.features.0.text
+            widget: string
+          - label: Home - features - first - image
+            name: home.featureSection.features.0.image.url
+            widget: image
+          - label: Home - features - first - image - alt
+            name: home.featureSection.features.0.image.alt
+            widget: string
+          - label: Home - features - second - title
+            name: home.featureSection.features.1.title
+            widget: string
+          - label: Home - features - second - text
+            name: home.featureSection.features.1.text
+            widget: string
+          - label: Home - features - second - image
+            name: home.featureSection.features.1.image.url
+            widget: image
+          - label: Home - features - second - image - alt
+            name: home.featureSection.features.1.image.alt
+            widget: string
+          - label: Home - features - third - title
+            name: home.featureSection.features.2.title
+            widget: string
+          - label: Home - features - third - text
+            name: home.featureSection.features.2.text
+            widget: string
+          - label: Home - features - third - image
+            name: home.featureSection.features.2.image.url
+            widget: image
+          - label: Home - features - third - image - alt
+            name: home.featureSection.features.2.image.alt
+            widget: string
+          - label: Home - features - fourth - title
+            name: home.featureSection.features.3.title
+            widget: string
+          - label: Home - features - fourth - text
+            name: home.featureSection.features.3.text
+            widget: string
+          - label: Home - features - fourth - image
+            name: home.featureSection.features.3.image.url
+            widget: image
+          - label: Home - features - fourth - image - alt
+            name: home.featureSection.features.3.image.alt
+            widget: string
+          - label: Home - templates - heading
+            name: home.templatesSection.heading
+            widget: string
+          - label: Home - templates - text
+            name: home.templatesSection.text
+            widget: string
+          - label: Home - templates - button
+            name: home.templatesSection.button
+            widget: string
+          - label: Home - stories - copy
+            name: home.storiesSection.copy
+            widget: string
+          - label: Home - stories - copy
+            name: home.storiesSection.author.name
+            widget: string
+          - label: Home - stories - author - title
+            name: home.storiesSection.author.title
+            widget: string
+          - label: Home - stories - image
+            name: home.storiesSection.image.url
+            widget: image
+          - label: Home - stories - image - alt
+            name: home.storiesSection.image.alt
+            widget: string
+          - label: Home - free - heading
+            name: home.freeSection.heading
+            widget: string
+          - label: Home - free - text
+            name: home.freeSection.text
+            widget: string
+          - label: Home - free - button
+            name: home.freeSection.button
+            widget: string
+          - label: Pricing - page title
+            name: pricing.pageTitle
+            widget: string
+          - label: Pricing - hero  - heading
+            name: pricing.heroSection.heading
+            widget: string
+          - label: Pricing - hero  - text
+            name: pricing.heroSection.text
+            widget: string
+          - label: Pricing - table - heading
+            name: pricing.tableSection.heading
+            widget: string
+          - label: Pricing - table - list - first
+            name: pricing.tableSection.list.first
+            widget: string
+          - label: Pricing - table - list - second
+            name: pricing.tableSection.list.second
+            widget: string
+          - label: Pricing - table - list - third
+            name: pricing.tableSection.list.third
+            widget: string
+          - label: Pricing - table - button
+            name: pricing.tableSection.button
+            widget: string
+          - label: Pricing - included - heading
+            name: pricing.includedSection.heading
+            widget: string
+          - label: Pricing - included - list - 1
+            name: pricing.includedSection.list.1
+            widget: string
+          - label: Pricing - included - list - 2
+            name: pricing.includedSection.list.2
+            widget: string
+          - label: Pricing - included - list - 3
+            name: pricing.includedSection.list.3
+            widget: string
+          - label: Pricing - included - list - 4
+            name: pricing.includedSection.list.4
+            widget: string
+          - label: Pricing - included - list - 5
+            name: pricing.includedSection.list.5
+            widget: string
+          - label: Pricing - included - list - 6
+            name: pricing.includedSection.list.6
+            widget: string
+          - label: Contact - hero - heading
+            name: contact.heroSection.heading
+            widget: string
+          - label: Contact - hero - text
+            name: contact.heroSection.text
+            widget: string
+          - label: Contact - form section - email - heading
+            name: contact.formSection.email.heading
+            widget: string
+          - label: Contact - form section - email - value
+            name: contact.formSection.email.value
+            widget: string
+          - label: Contact - form section - office - heading
+            name: contact.formSection.office.heading
+            widget: string
+          - label: Contact - form section - office - image - url
+            name: contact.formSection.office.image.url
+            widget: string
+          - label: Contact - form section - office - image - alt
+            name: contact.formSection.office.image.alt
+            widget: string
+          - label: Contact - form section - office - info - heading
+            name: contact.formSection.office.info.heading
+            widget: string
+          - label: Contact - form section - office - info - subHeading
+            name: contact.formSection.office.info.subHeading
+            widget: string
+          - label: Contact - form section - office - info - address - 1
+            name: contact.formSection.office.info.address.1
+            widget: string
+          - label: Contact - form section - office - info - address - 2
+            name: contact.formSection.office.info.address.2
+            widget: string
+          - label: Contact - form section - office - info - address - 3
+            name: contact.formSection.office.info.address.3
+            widget: string
+          - label: Contact - form section - office - info - availability
+            name: contact.formSection.office.info.availability
+            widget: string
+          - label: Contact - form section - form - heading
+            name: contact.formSection.form.heading
+            widget: string
+          - label: Contact - form section - form - name - label
+            name: contact.formSection.form.name.label
+            widget: string
+          - label: Contact - form section - form - name - placeholder
+            name: contact.formSection.form.name.placeholder
+            widget: string
+          - label: Contact - form section - form - email - label
+            name: contact.formSection.form.email.label
+            widget: string
+          - label: Contact - form section - form - email - placeholder
+            name: contact.formSection.form.email.placeholder
+            widget: string
+          - label: Contact - form section - form - subject - label
+            name: contact.formSection.form.subject.label
+            widget: string
+          - label: Contact - form section - form - subject - placeholder
+            name: contact.formSection.form.subject.placeholder
+            widget: string
+          - label: Contact - form section - form - message - label
+            name: contact.formSection.form.message.label
+            widget: string
+          - label: Contact - form section - form - message - placeholder
+            name: contact.formSection.form.message.placeholder
+            widget: string
+          - label: Contact - form section - form - button
+            name: contact.formSection.form.button
+            widget: string
+          - label: Contact - form section - form - message - heading
+            name: contact.formSection.form.message.heading
+            widget: string
+          - label: Contact - form section - form - message - text
+            name: contact.formSection.form.message.text
+            widget: string
+      - label: Slovak
+        name: slovak
+        file: src/intl/sk.json
+        fields:
+          - label: Global - loginURL
+            name: global.loginURL
+            widget: string
+          - label: Global - signupURL
+            name: global.signupURL
+            widget: string
+          - label: Header - logo - url
+            name: header.logo.url
+            widget: image
+          - label: Header - logo - alt
+            name: header.logo.alt
+            widget: string
+          - label: Header - menu - pricing
+            name: header.menu.pricing
+            widget: string
+          - label: Header - menu - login
+            name: header.menu.login
+            widget: string
+          - label: Header - menu - signup
+            name: header.menu.signup
+            widget: string
+          - label: Footer - logo - url
+            name: footer.logo.url
+            widget: image
+          - label: Footer - logo - alt
+            name: footer.logo.alt
+            widget: string
+          - label: Footer - menu - home
+            name: footer.menu.home
+            widget: string
+          - label: Footer - social - facebook
+            name: footer.social.facebook
+            widget: string
+          - label: Footer - social - twitter
+            name: footer.social.twitter
+            widget: string
+          - label: Footer - social - linkedin
+            name: footer.social.linkedin
+            widget: string
+          - label: Footer - social - instagram
+            name: footer.social.instagram
+            widget: string
+          - label: Home - page title
+            name: home.pageTitle
+            widget: string
+          - label: Home - hero - heading - first
+            name: home.heroSection.heading.first
+            widget: string
+          - label: Home - hero - heading - second
+            name: home.heroSection.heading.second
+            widget: string
+          - label: Home - hero - text
+            name: home.heroSection.text
+            widget: string
+          - label: Home - hero - button
+            name: home.heroSection.button
+            widget: string
+          - label: Home - hero - image
+            name: home.heroSection.image.url
+            widget: image
+          - label: Home - hero - image - alt
+            name: home.heroSection.image.alt
+            widget: string
+          - label: Home - meet - heading
+            name: home.meetSection.heading
+            widget: string
+          - label: Home - meet - text
+            name: home.meetSection.text
+            widget: string
+          - label: Home - meet - button
+            name: home.meetSection.button
+            widget: string
+          - label: Home - meet - image
+            name: home.meetSection.image.url
+            widget: image
+          - label: Home - meet - image - alt
+            name: home.meetSection.image.alt
+            widget: string
+          - label: Home - features - heading
+            name: home.featureSection.heading
+            widget: string
+          - label: Home - features - first - title
+            name: home.featureSection.features.0.title
+            widget: string
+          - label: Home - features - first - text
+            name: home.featureSection.features.0.text
+            widget: string
+          - label: Home - features - first - image
+            name: home.featureSection.features.0.image.url
+            widget: image
+          - label: Home - features - first - image - alt
+            name: home.featureSection.features.0.image.alt
+            widget: string
+          - label: Home - features - second - title
+            name: home.featureSection.features.1.title
+            widget: string
+          - label: Home - features - second - text
+            name: home.featureSection.features.1.text
+            widget: string
+          - label: Home - features - second - image
+            name: home.featureSection.features.1.image.url
+            widget: image
+          - label: Home - features - second - image - alt
+            name: home.featureSection.features.1.image.alt
+            widget: string
+          - label: Home - features - third - title
+            name: home.featureSection.features.2.title
+            widget: string
+          - label: Home - features - third - text
+            name: home.featureSection.features.2.text
+            widget: string
+          - label: Home - features - third - image
+            name: home.featureSection.features.2.image.url
+            widget: image
+          - label: Home - features - third - image - alt
+            name: home.featureSection.features.2.image.alt
+            widget: string
+          - label: Home - features - fourth - title
+            name: home.featureSection.features.3.title
+            widget: string
+          - label: Home - features - fourth - text
+            name: home.featureSection.features.3.text
+            widget: string
+          - label: Home - features - fourth - image
+            name: home.featureSection.features.3.image.url
+            widget: image
+          - label: Home - features - fourth - image - alt
+            name: home.featureSection.features.3.image.alt
+            widget: string
+          - label: Home - templates - heading
+            name: home.templatesSection.heading
+            widget: string
+          - label: Home - templates - text
+            name: home.templatesSection.text
+            widget: string
+          - label: Home - templates - button
+            name: home.templatesSection.button
+            widget: string
+          - label: Home - stories - copy
+            name: home.storiesSection.copy
+            widget: string
+          - label: Home - stories - copy
+            name: home.storiesSection.author.name
+            widget: string
+          - label: Home - stories - author - title
+            name: home.storiesSection.author.title
+            widget: string
+          - label: Home - stories - image
+            name: home.storiesSection.image.url
+            widget: image
+          - label: Home - stories - image - alt
+            name: home.storiesSection.image.alt
+            widget: string
+          - label: Home - free - heading
+            name: home.freeSection.heading
+            widget: string
+          - label: Home - free - text
+            name: home.freeSection.text
+            widget: string
+          - label: Home - free - button
+            name: home.freeSection.button
+            widget: string
+          - label: Pricing - page title
+            name: pricing.pageTitle
+            widget: string
+          - label: Pricing - hero  - heading
+            name: pricing.heroSection.heading
+            widget: string
+          - label: Pricing - hero  - text
+            name: pricing.heroSection.text
+            widget: string
+          - label: Pricing - table - heading
+            name: pricing.tableSection.heading
+            widget: string
+          - label: Pricing - table - list - first
+            name: pricing.tableSection.list.first
+            widget: string
+          - label: Pricing - table - list - second
+            name: pricing.tableSection.list.second
+            widget: string
+          - label: Pricing - table - list - third
+            name: pricing.tableSection.list.third
+            widget: string
+          - label: Pricing - table - button
+            name: pricing.tableSection.button
+            widget: string
+          - label: Pricing - included - heading
+            name: pricing.includedSection.heading
+            widget: string
+          - label: Pricing - included - list - 1
+            name: pricing.includedSection.list.1
+            widget: string
+          - label: Pricing - included - list - 2
+            name: pricing.includedSection.list.2
+            widget: string
+          - label: Pricing - included - list - 3
+            name: pricing.includedSection.list.3
+            widget: string
+          - label: Pricing - included - list - 4
+            name: pricing.includedSection.list.4
+            widget: string
+          - label: Pricing - included - list - 5
+            name: pricing.includedSection.list.5
+            widget: string
+          - label: Pricing - included - list - 6
+            name: pricing.includedSection.list.6
+            widget: string
+          - label: Contact - hero - heading
+            name: contact.heroSection.heading
+            widget: string
+          - label: Contact - hero - text
+            name: contact.heroSection.text
+            widget: string
+          - label: Contact - form section - email - heading
+            name: contact.formSection.email.heading
+            widget: string
+          - label: Contact - form section - email - value
+            name: contact.formSection.email.value
+            widget: string
+          - label: Contact - form section - office - heading
+            name: contact.formSection.office.heading
+            widget: string
+          - label: Contact - form section - office - image - url
+            name: contact.formSection.office.image.url
+            widget: string
+          - label: Contact - form section - office - image - alt
+            name: contact.formSection.office.image.alt
+            widget: string
+          - label: Contact - form section - office - info - heading
+            name: contact.formSection.office.info.heading
+            widget: string
+          - label: Contact - form section - office - info - subHeading
+            name: contact.formSection.office.info.subHeading
+            widget: string
+          - label: Contact - form section - office - info - address - 1
+            name: contact.formSection.office.info.address.1
+            widget: string
+          - label: Contact - form section - office - info - address - 2
+            name: contact.formSection.office.info.address.2
+            widget: string
+          - label: Contact - form section - office - info - address - 3
+            name: contact.formSection.office.info.address.3
+            widget: string
+          - label: Contact - form section - office - info - availability
+            name: contact.formSection.office.info.availability
+            widget: string
+          - label: Contact - form section - form - heading
+            name: contact.formSection.form.heading
+            widget: string
+          - label: Contact - form section - form - name - label
+            name: contact.formSection.form.name.label
+            widget: string
+          - label: Contact - form section - form - name - placeholder
+            name: contact.formSection.form.name.placeholder
+            widget: string
+          - label: Contact - form section - form - email - label
+            name: contact.formSection.form.email.label
+            widget: string
+          - label: Contact - form section - form - email - placeholder
+            name: contact.formSection.form.email.placeholder
+            widget: string
+          - label: Contact - form section - form - subject - label
+            name: contact.formSection.form.subject.label
+            widget: string
+          - label: Contact - form section - form - subject - placeholder
+            name: contact.formSection.form.subject.placeholder
+            widget: string
+          - label: Contact - form section - form - message - label
+            name: contact.formSection.form.message.label
+            widget: string
+          - label: Contact - form section - form - message - placeholder
+            name: contact.formSection.form.message.placeholder
+            widget: string
+          - label: Contact - form section - form - button
+            name: contact.formSection.form.button
+            widget: string
+          - label: Contact - form section - form - message - heading
+            name: contact.formSection.form.message.heading
+            widget: string
+          - label: Contact - form section - form - message - text
+            name: contact.formSection.form.message.text
+            widget: string
+  - label: 'Blog in English'
+    name: english_posts
+    folder: _posts
+    create: true
+    filter: { field: 'language', value: 'en' }
+    fields:
+      - { label: 'Language', name: 'langauge', widget: select, options: ['sk', 'en'] }
+      - { label: 'Title', name: 'title', widget: string }
+      - { label: 'Body', name: 'body', widget: markdown }
+  - label: 'Blog in Slovak'
+    name: slovak_posts
+    folder: _posts
+    create: true
+    filter: { field: 'language', value: 'sk' }
+    fields:
+      - { label: 'Language', name: 'langauge', widget: select, options: ['sk', 'en'] }
+      - { label: 'Title', name: 'title', widget: string }
+      - { label: 'Body', name: 'body', widget: markdown }

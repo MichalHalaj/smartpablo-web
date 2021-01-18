@@ -1,0 +1,22 @@
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+.cta-wrap {
+    text-align: center;
+    padding: 2rem;
+}
+
+.clearfix {
+  overflow: auto;
+
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+.validation-summary-errors {
+  color: $red;
+}
