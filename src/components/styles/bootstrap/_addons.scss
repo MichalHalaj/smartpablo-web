@@ -1,0 +1,26 @@
+.btn-throbber {
+  position: relative;
+
+  &.processing,
+  &:disabled {
+    color: transparent;
+
+      &::before {
+        content: '';
+        display: block;
+        width: 1rem;
+        height: 1rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -0.5rem;
+        margin-top: -0.5rem;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        border-top-color: transparent;
+    
+        animation: spin 1s infinite linear;
+        // animation: fa-spin 1s infinite linear;
+      }
+  }
+}

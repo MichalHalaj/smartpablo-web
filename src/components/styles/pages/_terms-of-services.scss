@@ -1,0 +1,65 @@
+.terms-of-services {
+
+    .terms-content {
+        // font-size: 90%;
+
+        h1 { font-size: 180%; }
+        h2 { font-size: 140%; }
+        h3 { font-size: 125%; }
+
+        counter-reset: article;
+
+        .article {
+            position: relative;
+            margin-bottom: 2rem;
+            counter-reset: paragraph;
+
+            > h2 {
+                &::before {
+                    counter-increment: article;
+                    content: counter(article) '.';
+
+                    margin-right: 0.25rem;
+                }
+            }
+
+            .paragraph {
+
+                position: relative;
+                padding-left: 3rem;
+                margin-bottom: 2rem;
+                
+                &::before {
+                    counter-increment: paragraph;
+                    content: counter(article) '.' counter(paragraph) '.';
+
+                    // margin-right: 0.25rem;
+                    
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+
+                
+                counter-reset: _point;
+
+                p {
+                    position: relative;
+                    margin: 0.5rem 0 0 2.5rem;
+                    padding-left: 2.5rem;
+
+                    &::before {
+                        counter-increment: _point;
+                        content: counter(article) '.' counter(paragraph) '.' counter(_point) '.';
+    
+                        margin-right: 0.25rem;
+                        position: absolute;
+                        top: 0;
+                        left: -2.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+}

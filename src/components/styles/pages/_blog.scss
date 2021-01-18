@@ -1,0 +1,28 @@
+.blog-section {
+  padding: 1.5rem 0;
+}
+
+.blog-header {
+  border-bottom: 1px solid $gray-300;
+  margin-bottom: 1rem;
+
+  > p {
+    font-size: 0.75rem;
+    color: $gray-800;
+  }
+}
+
+.blog-post-content {
+  img {
+    max-width: 100%;
+  }
+}
+
+.blog-hero-section {
+  background: $bg-col-alternate3;
+  padding-top: 2rem;
+}
+
+.blog-post-item {
+  margin-bottom: 2rem;
+}
