@@ -4,11 +4,11 @@ $langing-hero-img-width: 115%;
   @at-root {
     body#{&} {
       #app-header {
-        background-color: $bg-col-landing;
+        background-color: $body-bg-landing;
       }
 
       .navbar-main {
-        background-color: $bg-col-landing;
+        background-color: $body-bg-landing;
 
         &.nav-scrolled {
           background-color: $navbar-bg-col;
@@ -28,7 +28,7 @@ $langing-hero-img-width: 115%;
   // }
 
   .hero-section {
-    background-color: $bg-col-landing;
+    background-color: $body-bg-landing;
 
     position: relative;
 
@@ -186,7 +186,7 @@ $langing-hero-img-width: 115%;
   }
 
   .features-section {
-    background-color: $bg-col-landing-feat;
+    background-color: $body-bg-landing-yellow;
 
     // .divider {
     //     padding-top: 4rem;
@@ -228,7 +228,7 @@ $langing-hero-img-width: 115%;
   }
 
   .story-section {
-    background-color: $bg-col-alternate3;
+    background-color: pablo-yellow-light;
 
     padding-bottom: 2rem;
 
@@ -321,7 +321,7 @@ $langing-hero-img-width: 115%;
   }
 
   .stories-section {
-    background-color: $bg-col-alternate3;
+    background-color: pablo-yellow-light;
 
     padding-bottom: 2rem;
 
@@ -361,11 +361,11 @@ $langing-hero-img-width: 115%;
   }
 
   .free-section {
-    background-color: $bg-col-alternate2;
+    background-color: pablo-pink-light;
 
     .divider-top {
       &::after {
-        background-color: $bg-col-alternate3;
+        background-color: pablo-yellow-light;
       }
     }
 

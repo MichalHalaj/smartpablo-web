@@ -1,11 +1,11 @@
 .contact {
-  $bg-col: rgb(243, 198, 189);
-  $bg-col: rgb(234, 244, 255);
+  $body-bg: rgb(243, 198, 189);
+  $body-bg: rgb(234, 244, 255);
 
   @at-root {
     body#{&} {
       #app-header {
-        background-color: $bg-col;
+        background-color: $body-bg;
       }
     }
   }

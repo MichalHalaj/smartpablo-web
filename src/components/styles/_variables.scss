@@ -1,23 +1,18 @@
-$img-path: 'invoicino';
-$bg-col: #fff;
-$navbar-bg-col: $bg-col;
-$navbar-logo-height: 1.5rem;
+$body-bg                    : #fff;
+$navbar-bg-col              : $body-bg;
+$navbar-logo-height         : 1.5rem;
 
-$img-path: 'pablo';
-$bg-col-landing: #f9eede;
-$bg-col-landing-feat: #f9e9ed;
-$bg-col-alternate3: #eaf2fa;
-$bg-col-alternate: rgb(243, 198, 189);
-$bg-col-alternate2: rgb(255,240,227);
+$pablo-yellow-light         : rgb(255,240,227);
+$pablo-pink-light           : rgb(243, 198, 189);
+$pablo-blue-light           : #eaf2fa;
 
-// $bg-col-landing: rgb(249,238,222);
-// $bg-col-alternate: rgb(234, 244, 255);
-// $bg-col-alternate2: rgb(255,240,227);
+$body-bg-landing            : $body-bg;
 
-$z-footer: 998;
-$z-cookies: 999;
 
-$section-padding-bottom: 3rem;
+$z-footer       : 998;
+$z-cookies      : 999;
+
+$section-padding-bottom     : 3rem;
 
 // // Variables
 // //

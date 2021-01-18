@@ -2,11 +2,11 @@
   @at-root {
     body#{&} {
       #app-header {
-        background-color: $bg-col-alternate;
+        background-color: pablo-pink-light;
       }
 
       .navbar-main {
-        background-color: $bg-col-alternate;
+        background-color: pablo-pink-light;
 
         &.nav-scrolled {
           background-color: $navbar-bg-col;
@@ -16,7 +16,7 @@
   }
 
   .hero-wrap {
-    // background-color: $bg-col-alternate;
+    // background-color: pablo-pink-light;
 
     // background-image: url("../invoicino/static/img/pricing.svg");
     // background-repeat: no-repeat;
@@ -24,7 +24,7 @@
   }
 
   .hero-section {
-    background-color: $bg-col-alternate;
+    background-color: pablo-pink-light;
 
     padding: 5rem 3rem;
     text-align: center;
@@ -45,7 +45,7 @@
   }
 
   .table-section {
-    background-color: $bg-col-alternate;
+    background-color: pablo-pink-light;
 
     // background-image: url("../pablo/static/img/pricing/table.svg");
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@
   }
 
   .included-section {
-    background-color: $bg-col;
+    background-color: $body-bg;
 
     // background-image: url("../invoicino/static/img/pricing/curve.svg");
     background-repeat: no-repeat;
