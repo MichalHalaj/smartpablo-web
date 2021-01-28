@@ -1,24 +1,7 @@
 import React from 'react';
-import { useEffect } from 'react';
 import PropTypes from 'prop-types';
 
-const isBrowser = typeof window !== `undefined`;
-
 export default function HTML(props) {
-  useEffect(() => {
-    if (isBrowser) {
-      window.addEventListener('scroll', (_) => {
-        console.log('x1');
-      });
-      document.addEventListener('scroll', (_) => {
-        console.log('x2');
-      });
-      console.log('x3');
-    }
-  });
-
-  console.log('x4');
-
   return (
     <html {...props.htmlAttributes}>
       <head>
