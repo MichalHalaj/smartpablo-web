@@ -159,17 +159,9 @@ $langing-hero-img-width: 115%;
   }
 
   .features-section {
-    background-color: $pablo-yellow-light;
-
-    // .divider {
-    //     padding-top: 4rem;
-    //     padding-bottom: 0;
-    //     margin-bottom: 3rem;
-    // }
+    background-color: $pablo-pink-light;
 
     .row {
-      // margin-bottom: 5rem;
-
       .feature {
         .inner {
           margin-bottom: 5rem;
@@ -201,7 +193,7 @@ $langing-hero-img-width: 115%;
   }
 
   .story-section {
-    background-color: pablo-yellow-light;
+    background-color: $pablo-yellow-light;
 
     padding-bottom: 2rem;
 
@@ -294,7 +286,7 @@ $langing-hero-img-width: 115%;
   }
 
   .stories-section {
-    background-color: pablo-yellow-light;
+    background-color: $pablo-yellow-light;
 
     padding-bottom: 2rem;
 
@@ -334,11 +326,11 @@ $langing-hero-img-width: 115%;
   }
 
   .free-section {
-    background-color: pablo-pink-light;
+    background-color: $pablo-pink-light;
 
     .divider-top {
       &::after {
-        background-color: pablo-yellow-light;
+        background-color: $pablo-yellow-light;
       }
     }
 

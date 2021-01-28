@@ -1,30 +1,20 @@
 .pricing {
-  @at-root {
-    body#{&} {
-      #app-header {
-        background-color: pablo-pink-light;
-      }
+  @at-root #gatsby-focus-wrapper > div#{&} {
+    #app-header {
+        background-color: $pablo-orange-light;
+    }
 
-      .navbar-main {
-        background-color: pablo-pink-light;
+    .navbar-main {
+        background-color: $pablo-orange-light;
 
         &.nav-scrolled {
-          background-color: $navbar-bg-col;
+        background-color: $navbar-bg-col;
         }
-      }
     }
   }
 
-  .hero-wrap {
-    // background-color: pablo-pink-light;
-
-    // background-image: url("../invoicino/static/img/pricing.svg");
-    // background-repeat: no-repeat;
-    // background-position: bottom;
-  }
-
   .hero-section {
-    background-color: pablo-pink-light;
+    background-color: $pablo-orange-light;
 
     padding: 5rem 3rem;
     text-align: center;
@@ -45,7 +35,7 @@
   }
 
   .table-section {
-    background-color: pablo-pink-light;
+    background-color: $pablo-orange-light;
 
     // background-image: url("../pablo/static/img/pricing/table.svg");
     background-repeat: no-repeat;
