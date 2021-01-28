@@ -5,6 +5,7 @@ import Layout from '../components/layout';
 
 export default function Home() {
   const intl = useIntl();
+    const backgroundImage = intl.formatMessage({ id: 'home.heroSection.image.url' });
 
   return (
     <>
@@ -12,7 +13,8 @@ export default function Home() {
         <title>{intl.formatMessage({ id: 'home.pageTitle' })}</title>
       </Helmet>
       <Layout className="landing">
-        <div className="hero-section">
+        {/* <div className="hero-section" style={{ backgroundImage: `url(${backgroundImage})`}} > */}
+        <div className="hero-section" >
           <div className="container">
             <div className="hero-container">
               <div className="row">
@@ -41,10 +43,12 @@ export default function Home() {
                 </div>
 
                 <div className="col-md-7 hero-right">
-                  <img
+                  {/* <img
                     src={intl.formatMessage({ id: 'home.heroSection.image.url' })}
                     alt={intl.formatMessage({ id: 'home.heroSection.image.alt' })}
-                  />
+                  /> */}
+
+                  &nbsp;
                 </div>
               </div>
             </div>

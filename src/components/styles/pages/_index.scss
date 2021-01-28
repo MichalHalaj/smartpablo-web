@@ -32,6 +32,13 @@ $langing-hero-img-width: 115%;
       text-align: left;
     }
 
+    @include media-breakpoint-up(md) {
+      background-image: url('/assets/landing/hero.png');
+      background-position: 39vw 15vh;
+      background-repeat: no-repeat;
+      background-size: 50vw auto;
+    }
+
     @include media-breakpoint-up(lg) {
       padding-top: 1rem;
       text-align: left;
@@ -62,33 +69,14 @@ $langing-hero-img-width: 115%;
       & ._1st {
         font-size: 6rem;
         font-weight: bold;
+        letter-spacing: 2px;
       }
 
       & ._2nd {
         font-size: 2.6rem;
         font-weight: bolder;
+        letter-spacing: 1px;
       }
-
-      & ._3rd,
-      & ._4th {
-        font-size: 1.6rem;
-        font-weight: 100;
-        line-height: 1.5;
-        word-spacing: 0.1rem;
-      }
-
-      // ._2nd,
-      // ._3rd,
-      // ._4th {
-      //   text-align: justify;
-
-      //   &::after {
-      //     content: '';
-      //     display: inline-block;
-      //     width: 100%;
-      //     height: 1px;
-      //   }
-      // }
     }
 
     .hero-text {

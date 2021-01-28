@@ -20,7 +20,7 @@
   "home.heroSection.text": "Try SmartPablo for free, the easiest invoice app for small businesses ever.",
   "home.heroSection.button": "Create a free invoice",
   "home.heroSection.buttonURL": "https://auth.smartpablo.com/signup",
-  "home.heroSection.image.url": "/assets/landing/hero.svg",
+  "home.heroSection.image.url": "/assets/landing/hero.png",
   "home.heroSection.image.alt": "Hero",
   "home.meetSection.heading": "Meet SmartPablo.",
   "home.meetSection.text": "Feel free and try it on your own! Making an invoice in SmartPablo takes less than a minute. With autocorrect on, SmartPablo will fill in the data from the previous editing. Isn't that smart?",

@@ -41,7 +41,7 @@ const Header = () => {
               </li>
             </ul>
             <a
-              className="btn btn-outline-primary"
+              className="btn btn-outline-primary px-4"
               href={intl.formatMessage({
                 id: 'global.signupURL',
               })}
