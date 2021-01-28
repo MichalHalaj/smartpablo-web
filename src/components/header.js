@@ -5,7 +5,6 @@ import { Link, useIntl, FormattedMessage } from 'gatsby-plugin-intl';
 const SCROLL_OFFSET = 400;
 
 const Header = () => {
-
   const intl = useIntl();
   const [isOpen, setOpen] = useState(false);
   const [isFixed, setFixed] = useState(false);
@@ -13,39 +12,52 @@ const Header = () => {
 
   useEffect(() => {
     const isBrowser = typeof window !== `undefined`;
+    let isMounted = true;
 
     if (isBrowser) {
       window.addEventListener('scroll', (_) => {
+        if (!isMounted) {
+          return;
+        }
+
         const currentScroll = window.scrollY;
-        const isScrollUp = (currentScroll < lastScroll);
+        const isScrollUp = currentScroll < lastScroll;
 
         // console.log('status', currentScroll, lastScroll, isScrollUp);
 
-        if ((currentScroll >= SCROLL_OFFSET) || (currentScroll > SCROLL_OFFSET && isScrollUp)) {
-            if (isFixed === false) {
-                setFixed(true);
-            }
-            // $navbar
-            //     .addClass('fixed-top')
-            //     .addClass('nav-scrolled');
-        }
-        else {
-            if (isFixed !== false) {
-                setFixed(false);
-            }
-            // $navbar
-            //     .removeClass('fixed-top')
-            //     .removeClass('nav-scrolled');
+        if (currentScroll >= SCROLL_OFFSET || (currentScroll > SCROLL_OFFSET && isScrollUp)) {
+          if (isFixed === false) {
+            setFixed(true);
+          }
+          // $navbar
+          //     .addClass('fixed-top')
+          //     .addClass('nav-scrolled');
+        } else {
+          if (isFixed !== false) {
+            setFixed(false);
+          }
+          // $navbar
+          //     .removeClass('fixed-top')
+          //     .removeClass('nav-scrolled');
         }
 
         lastScroll = currentScroll;
       });
     }
+
+    return () => {
+      isMounted = false;
+    };
   });
 
   return (
     <header id="app-header">
-      <nav className={`navbar navbar-expand-sm navbar-toggleable-sm navbar-light navbar-main ${isFixed && 'fixed-top nav-scrolled'}`} id="app-navbar" >      
+      <nav
+        className={`navbar navbar-expand-sm navbar-toggleable-sm navbar-light navbar-main ${
+          isFixed && 'fixed-top nav-scrolled'
+        }`}
+        id="app-navbar"
+      >
         <div className="container">
           <Link className="navbar-brand" to="/">
             <img
