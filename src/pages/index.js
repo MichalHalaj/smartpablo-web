@@ -5,7 +5,7 @@ import Layout from '../components/layout';
 
 export default function Home() {
   const intl = useIntl();
-    const backgroundImage = intl.formatMessage({ id: 'home.heroSection.image.url' });
+  const backgroundImage = intl.formatMessage({ id: 'home.heroSection.image.url' });
 
   return (
     <>
@@ -14,7 +14,7 @@ export default function Home() {
       </Helmet>
       <Layout className="landing">
         {/* <div className="hero-section" style={{ backgroundImage: `url(${backgroundImage})`}} > */}
-        <div className="hero-section" >
+        <div className="hero-section">
           <div className="container">
             <div className="hero-container">
               <div className="row">
@@ -47,7 +47,6 @@ export default function Home() {
                     src={intl.formatMessage({ id: 'home.heroSection.image.url' })}
                     alt={intl.formatMessage({ id: 'home.heroSection.image.alt' })}
                   /> */}
-
                   &nbsp;
                 </div>
               </div>
@@ -149,6 +148,27 @@ export default function Home() {
             </div>
 
             <div className="section-content">
+              <div className="static-index-templates">
+                <div class="static-index-templates__inner">
+                  <div class="static-index-templates__list">
+                    <div className="row">
+                      {Array.from(['clean', 'times', 'spring', 'north']).map((_, i) => (
+                        <div
+                          className="col-3"
+                          key={intl.formatMessage({ id: `home.featureSection.features.${i}.title` })}
+                        >
+                            <img 
+                                className="template" 
+                                src={`https://cdn.smartpablo.com/web/img/templates/previews/${_}.png`}
+                                alt={_} 
+                            />
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               <div className="cta-wrap">
                 <a
                   className="btn btn-primary btn-cta"
