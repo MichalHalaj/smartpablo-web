@@ -32,7 +32,7 @@ $langing-hero-img-width: 115%;
       text-align: left;
     }
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       background-image: url('/assets/landing/hero.png');
       background-position: 39vw 15vh;
       background-repeat: no-repeat;
@@ -193,7 +193,7 @@ $langing-hero-img-width: 115%;
   }
 
   .story-section {
-    background-color: $pablo-yellow-light;
+    background-color: $pablo-blue-light;
 
     padding-bottom: 2rem;
 
@@ -286,7 +286,7 @@ $langing-hero-img-width: 115%;
   }
 
   .stories-section {
-    background-color: $pablo-yellow-light;
+    background-color: $pablo-pink-light;
 
     padding-bottom: 2rem;
 
@@ -326,11 +326,11 @@ $langing-hero-img-width: 115%;
   }
 
   .free-section {
-    background-color: $pablo-pink-light;
+    background-color: $pablo-yellow-light;
 
     .divider-top {
       &::after {
-        background-color: $pablo-yellow-light;
+        background-color: $pablo-blue-light;
       }
     }
 

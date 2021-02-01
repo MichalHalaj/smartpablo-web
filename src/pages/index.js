@@ -18,7 +18,7 @@ export default function Home() {
           <div className="container">
             <div className="hero-container">
               <div className="row">
-                <div className="col-md-5 hero-left">
+                <div className="col-lg-5 hero-left">
                   <div className="align-self-center">
                     <h1 className="hero-title">
                       <span className="_1st">
@@ -42,7 +42,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="col-md-7 hero-right">
+                <div className="col-lg-7 hero-right">
                   {/* <img
                     src={intl.formatMessage({ id: 'home.heroSection.image.url' })}
                     alt={intl.formatMessage({ id: 'home.heroSection.image.alt' })}
@@ -149,8 +149,8 @@ export default function Home() {
 
             <div className="section-content">
               <div className="static-index-templates">
-                <div class="static-index-templates__inner">
-                  <div class="static-index-templates__list">
+                <div className="static-index-templates__inner">
+                  <div className="static-index-templates__list">
                     <div className="row">
                       {Array.from(['clean', 'times', 'spring', 'north']).map((_, i) => (
                         <div
