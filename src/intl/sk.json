@@ -5,6 +5,7 @@
   "header.logo.url": "/assets/logo.svg",
   "header.logo.alt": "Logo",
   "header.menu.pricing": "Pricing",
+  "header.menu.contact": "Contact",
   "header.menu.login": "Login",
   "header.menu.signup": "Create a free invoice",
   "footer.logo.url": "/assets/logo-white.svg",

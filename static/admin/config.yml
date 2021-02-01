@@ -25,6 +25,8 @@ collections:
             widget: string
           - label: Header - menu - pricing
             name: header.menu.pricing
+          - label: Header - menu - contact
+            name: header.menu.contact
             widget: string
           - label: Header - menu - login
             name: header.menu.login

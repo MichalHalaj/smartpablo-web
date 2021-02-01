@@ -85,8 +85,21 @@ const Header = () => {
                   <FormattedMessage id="header.menu.pricing" />
                 </Link>
               </li>
+
+              <li className="nav-item">
+                <Link className="nav-link" to="/contact">
+                  <FormattedMessage id="header.menu.contact" />
+                </Link>
+              </li>
+
               <li className="nav-item">
                 <a className="nav-link" href={intl.formatMessage({ id: 'global.loginURL' })}>
+                    <span className="d-none d-lg-inline-block" >
+                        <span className="mr-2" >
+                            <i className="fas fa-lock" ></i>
+                        </span>
+                    </span>
+
                   <FormattedMessage id="header.menu.login" />
                 </a>
               </li>
