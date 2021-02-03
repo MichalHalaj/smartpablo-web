@@ -94,36 +94,30 @@ export default function Home() {
           <div className="divider divider-top"></div>
 
           <div className="container">
-            <div className="section__title">
+            <div className="section__title" >
               <h2>
                 <FormattedMessage id="home.featureSection.heading" />
               </h2>
             </div>
 
-            <div className="section-content">
-              {/* @await Html.PartialAsync("Partial/Index/_HighlightsPartial", Model.Highlights) */}
+            <div className="section-content" >
               <div className="row">
                 {Array.from(new Array(4)).map((_, i) => (
                   <div
                     className="feature col-12 col-md-6"
                     key={intl.formatMessage({ id: `home.featureSection.features.${i}.title` })}
                   >
-                    <div className="inner">
-                      <div className="preview">
-                        <span>
-                          <i className="fas fa-@item.Icon"></i>
-                        </span>
+                    <div className="inner mb-5" >
                         <img
                           src={intl.formatMessage({ id: `home.featureSection.features.${i}.image.url` })}
                           alt={intl.formatMessage({ id: `home.featureSection.features.${i}.image.alt` })}
                         />
-                      </div>
 
-                      <h2 className="feature-title">
-                        <FormattedMessage id={`home.featureSection.features.${i}.title`} />
-                      </h2>
+                        <h3 className="mt-4 mb-4" >
+                            <FormattedMessage id={`home.featureSection.features.${i}.title`} />
+                        </h3>
 
-                      <div className="feature-lead">
+                      <div className="text-lg" >
                         <FormattedMessage id={`home.featureSection.features.${i}.text`} />
                       </div>
                     </div>
@@ -227,7 +221,7 @@ export default function Home() {
                   </h2>
                 </div>
 
-                <div className="feature-lead">
+                <div className="text-lg" >
                   <FormattedMessage id="home.freeSection.text" />
                 </div>
 

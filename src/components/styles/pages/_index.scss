@@ -163,8 +163,6 @@ $langing-hero-img-width: 115%;
 
     .row {
       .feature {
-        font-size: 1.5rem;
-
         .inner {
           margin-bottom: 5rem;
           padding: 0 4rem;
@@ -174,20 +172,15 @@ $langing-hero-img-width: 115%;
 
         .preview {
           margin-bottom: 1rem;
-          // text-align: left;
-
-          font-size: 2rem;
 
           img {
-            // max-height: 50px;
-            // max-width: 60%;
             max-width: 95%;
             height: 12rem;
           }
         }
 
         .feature-title {
-          font-size: 1.3rem;
+          font-size: 1.75rem;
           font-weight: bold;
         }
       }
