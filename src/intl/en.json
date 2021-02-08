@@ -1,5 +1,5 @@
 {
-  "global.loginURL": "https://auth.smartpablo.com/login",
+  "global.loginURL": "https://app.smartpablo.com/app/login",
   "global.signupURL": "https://auth.smartpablo.com/signup",
   "global.metaDescription": "SmartPablo is the easiest invoice app for small businesses ever.",
   "header.logo.url": "/assets/logo.svg",
