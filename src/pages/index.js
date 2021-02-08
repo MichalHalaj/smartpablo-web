@@ -190,13 +190,13 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="col-8 col-text">
-                  <div className="copy">
+                <div className="col-8">
+                  <div className="text-xl font-italic font-weight-bold mt-4 mb-4" >
                     <FormattedMessage id="home.storiesSection.copy" />
                   </div>
 
-                  <div className="name">
-                    <h4>
+                  <div className="author-name" >
+                    <h4 className="mr-1" >
                       <FormattedMessage id="home.storiesSection.author.name" />
                     </h4>
                     <h5>

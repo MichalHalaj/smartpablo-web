@@ -240,18 +240,12 @@ $langing-hero-img-width: 115%;
       }
     }
 
-    .col-text {
-      padding-top: 1rem;
-
-      @include media-breakpoint-up(sm) {
-        padding-top: 2rem;
-      }
+    .col-8 {
 
       h4,
       h5 {
         display: inline-block;
-        margin: 0.5rem 0 0 0;
-        font-size: 0.9rem;
+        font-size: 1rem;
         line-height: 1;
       }
 
@@ -266,16 +260,6 @@ $langing-hero-img-width: 115%;
           content: ' - ';
           display: inline;
         }
-      }
-
-      .copy {
-        font-style: italic;
-        font-size: 130%;
-        font-weight: bold;
-      }
-
-      .name {
-        margin-top: 0.5rem;
       }
     }
   }
