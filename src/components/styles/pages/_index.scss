@@ -168,6 +168,12 @@ $langing-hero-img-width: 115%;
           padding: 0 4rem;
         }
 
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            min-height: 9rem;
+        }
+
         text-align: center;
 
         .preview {
