@@ -1,0 +1,31 @@
+.privacy-policy {
+
+    &-content {
+
+        h1 { font-size: 180%; }
+        h2 { font-size: 140%; }
+        h3 { font-size: 125%; }
+
+        line-height: 1.6;
+
+        .article {
+            position: relative;
+            margin-bottom: 3rem;
+
+            ul {
+                list-style-type: none;
+                margin-top: 0.5rem;
+
+                li {
+                    margin-bottom: 0.5rem;
+                }
+            }
+
+            .paragraph {
+                position: relative;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
+}

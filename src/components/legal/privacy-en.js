@@ -11,10 +11,9 @@ const TermsEn = () => {
         </div>
       </div>
 
-      <div className="terms-content">
+      <div className="privacy-policy-content">
         <div className="container">
-          <h1>Privacy Policy</h1>
-          <div className="text-muted mb-5">Last Updated: 21 Oct 2020</div>
+          <div className="text-muted mb-4">Last Updated: 21 Oct 2020</div>
           <div className="article">
             <div className="paragraph">
               This is the Privacy Policy of the SmartPablo SK s.r.o. website: smartpablo.com (the "Site"), operated by
@@ -119,39 +118,42 @@ const TermsEn = () => {
 
             <div className="paragraph">
               We will share or disclose your personal information with third parties only in the ways that are described
-              in this Privacy Policy, including as follows: 
-              <div>
-              a) subscribers and Users information: In general,
-              information you enter on the Site is available to the other persons – whether they are customers,
-              subscribers, staff members or others – to whom you give access to your account or to whom you give access
-              to the information through the normal operation of the Site. 
-              </div>
-              <div>
-              b) payment information: We use credit card
-              and other personally identifiable information (such as PayPal email addresses) you submit to us on the
-              Site, and other information that we collect, as required, to process payments you make through the Site
-              through our payment processor intermediaries. We do not store credit card or other payment method
-              information unless the User choose to enter credit card information for use in the SmartPablo recurring
-              profiles module; in all other cases our payment processors have the sole and complete responsibility for
-              the storage of credit card and payment information. We may also share personally identifiable information
-              with our payment processor intermediaries for risk management and fraud prevention. 
-              </div>
-              <div>c) legal requests and
-              business transitions, emergencies: In certain situations, SmartPablo may be required to disclose personal
-              data in response to lawful requests by public authorities, including to meet national security or law
-              enforcement requirements. SmartPablo may disclose your personal information (a) to any governmental
-              authority as part of an investigation to determine our compliance with any applicable law, rule, or
-              regulation (including privacy laws, rules, and regulations), (b) in response to a court order, subpoena,
-              discovery request, or other lawful judicial or administrative proceeding, (c) as otherwise required or
-              permitted under any applicable law, rule, or regulation, and (d) in good faith, to protect or defend the
-              rights or property of SmartPablo and other users and (e) if SmartPablo is involved in a merger,
-              acquisition, or sale of all or a portion of its assets, you will be notified via email and/or a prominent
-              notice on our Web site of any change in ownership or uses of your personal information, as well as any
-              choices you may have regarding your personal information. When providing the Service, we are assisted by
-              certain third-party – subprocessors: Google Inc. (Business Analytics Services), Amazon Web Services, Inc.
-              (Cloud Service Provider). A subprocessor is a third party data processor engaged by SmartPablo, who has or
-              potentially will have access to or process Service Data (which may contain Personal Data).
-              </div>
+              in this Privacy Policy, including as follows:
+              <ul>
+                <li>
+                  a) subscribers and Users information: In general, information you enter on the Site is available to
+                  the other persons – whether they are customers, subscribers, staff members or others – to whom you
+                  give access to your account or to whom you give access to the information through the normal operation
+                  of the Site.
+                </li>
+                <li>
+                  b) payment information: We use credit card and other personally identifiable information (such as
+                  PayPal email addresses) you submit to us on the Site, and other information that we collect, as
+                  required, to process payments you make through the Site through our payment processor intermediaries.
+                  We do not store credit card or other payment method information unless the User choose to enter credit
+                  card information for use in the SmartPablo recurring profiles module; in all other cases our payment
+                  processors have the sole and complete responsibility for the storage of credit card and payment
+                  information. We may also share personally identifiable information with our payment processor
+                  intermediaries for risk management and fraud prevention.
+                </li>
+                <li>
+                  c) legal requests and business transitions, emergencies: In certain situations, SmartPablo may be
+                  required to disclose personal data in response to lawful requests by public authorities, including to
+                  meet national security or law enforcement requirements. SmartPablo may disclose your personal
+                  information (a) to any governmental authority as part of an investigation to determine our compliance
+                  with any applicable law, rule, or regulation (including privacy laws, rules, and regulations), (b) in
+                  response to a court order, subpoena, discovery request, or other lawful judicial or administrative
+                  proceeding, (c) as otherwise required or permitted under any applicable law, rule, or regulation, and
+                  (d) in good faith, to protect or defend the rights or property of SmartPablo and other users and (e)
+                  if SmartPablo is involved in a merger, acquisition, or sale of all or a portion of its assets, you
+                  will be notified via email and/or a prominent notice on our Web site of any change in ownership or
+                  uses of your personal information, as well as any choices you may have regarding your personal
+                  information. When providing the Service, we are assisted by certain third-party – subprocessors:
+                  Google Inc. (Business Analytics Services), Amazon Web Services, Inc. (Cloud Service Provider). A
+                  subprocessor is a third party data processor engaged by SmartPablo, who has or potentially will have
+                  access to or process Service Data (which may contain Personal Data).
+                </li>
+              </ul>
             </div>
           </div>
           <div className="article">
@@ -174,13 +176,14 @@ const TermsEn = () => {
               provided in every email newsletter. If you withdraw your consent, we will immediately cease processing the
               relevant personal data and delete it, unless there is another legal basis for continued processing
               thereof. The withdrawal of consent will not affect the lawfulness of processing based on consent before
-              its withdrawal.Contact us at legal@SmartPablo.com) to initiate the steps required. We will verify your
-              information prior to processing and proceed with the steps necessary within the applicable laws and
-              regulations. Correcting, Updating, and Transferring Your Personal Information Upon written request
-              SmartPablo will provide you with information about what personal information we have about you. To review,
-              delete, and update your personal information to ensure it is accurate, you may login into your account to
-              make the changes, or you may contact us at (*). We will respond to your request within a reasonable
-              timeframe. We may ask you for further information from you to help us respond to your request.
+              its withdrawal.Contact us at <a href="mailto:legal@smartpablo.com">legal@SmartPablo.com</a>) to initiate
+              the steps required. We will verify your information prior to processing and proceed with the steps
+              necessary within the applicable laws and regulations. Correcting, Updating, and Transferring Your Personal
+              Information Upon written request SmartPablo will provide you with information about what personal
+              information we have about you. To review, delete, and update your personal information to ensure it is
+              accurate, you may login into your account to make the changes, or you may contact us at{' '}
+              <a href="mailto:legal@smartpablo.com">legal@SmartPablo.com</a>. We will respond to your request within a
+              reasonable timeframe. We may ask you for further information from you to help us respond to your request.
             </div>
           </div>
 
@@ -189,38 +192,57 @@ const TermsEn = () => {
 
             <div className="paragraph">
               Listed below are your rights and options in relation to personal data that we process. If you want to use
-              any of these options, please contact us at legal@SmartPablo.com. a) right of access to personal data (art.
-              15 GDPR) - you may request that we confirm whether or not we process your personal data and, if we do, you
-              have the right of access to this data (a copy of your personal data) and information about the terms of
-              processing it. We will generally provide this information within one month of the date of your request, b)
-              right to rectification and completion of the data (art. 16 GDPR) - you may at any time rectify, complete
-              and update your personal data in your account on the Settings → Company Profile page. We recommend that
-              you do so every time this data changes. If you have a problem updating your personal data, please contact
-              us. c) right to erasure (art. 17 GDPR) - In addition to withdrawal of consent, you may have your personal
-              data erased where one of the following grounds applies: (i) the personal data is no longer necessary for
-              the purposes referred to above, (ii) you object to your personal data being processed on the legal ground
-              of a legitimate interest and there are no overriding legitimate grounds for the processing or you object
-              to your personal data processing for direct marketing purposes, (iii) the personal data has been
-              unlawfully processed, or (iv) the personal data has to be erased for compliance with a legal obligation,
-              where the processing is not necessary for compliance with a legal obligation or for the establishment,
-              exercise or defense of legal claims, unless the GDPR grants other exemptions, d) right to restriction of
-              processing (art. 18 GDPR) - In addition, you may request restriction of processing of your personal data,
-              if (i) you contest the accuracy of your personal data, for a period during which its accuracy is being
-              verified, (ii) personal data has been processed unlawfully (instead of requesting erasure of the data), or
-              (iii) we no longer need the personal data for the purposes referred to above, but you need it for the
-              establishment, exercise or defence of legal claims, (iv) you object to your personal data being processed
-              on the legal grounds of a legitimate interest, for a period during which it is being verified whether
-              there are legitimate grounds for continued processing thereof, e) right to portability (art. 20 GDPR) -
-              you have the right to have personal data, which you have provided to us for the purposes of performing the
-              contract or on the grounds of your consent and which we process using automated means, transferred to
-              another organization, if technically possible, f) right to object (art. 21 GDPR) - you may object, for
-              reasons related to your particular situation, to your personal data being processed on the legal grounds
-              of a legitimate interest. In the event of such objection, we will cease processing your personal data
-              unless compelling legitimate grounds for continued processing or for the establishment, exercise or
-              defense of legal claims are demonstrated, g) right to lodge a complaint - if you are dissatisfied with our
-              handling of a complaint or do not agree with the resolution proposed by us, you may make a complaint to
-              the Office for Personal Data Protection, residing at Hraničná 12, 820 07 Bratislava, Slovak Republic
-              (dataprotection.gov.sk).
+              any of these options, please contact us at <a href="mailto:legal@smartpablo.com">legal@SmartPablo.com</a>.
+              <ul>
+                <li>
+                  a) right of access to personal data (art. 15 GDPR) - you may request that we confirm whether or not we
+                  process your personal data and, if we do, you have the right of access to this data (a copy of your
+                  personal data) and information about the terms of processing it. We will generally provide this
+                  information within one month of the date of your request,
+                </li>
+                <li>
+                  b) right to rectification and completion of the data (art. 16 GDPR) - you may at any time rectify,
+                  complete and update your personal data in your account on the Settings → Company Profile page. We
+                  recommend that you do so every time this data changes. If you have a problem updating your personal
+                  data, please contact us.{' '}
+                </li>
+                <li>
+                  c) right to erasure (art. 17 GDPR) - In addition to withdrawal of consent, you may have your personal
+                  data erased where one of the following grounds applies: (i) the personal data is no longer necessary
+                  for the purposes referred to above, (ii) you object to your personal data being processed on the legal
+                  ground of a legitimate interest and there are no overriding legitimate grounds for the processing or
+                  you object to your personal data processing for direct marketing purposes, (iii) the personal data has
+                  been unlawfully processed, or (iv) the personal data has to be erased for compliance with a legal
+                  obligation, where the processing is not necessary for compliance with a legal obligation or for the
+                  establishment, exercise or defense of legal claims, unless the GDPR grants other exemptions,{' '}
+                </li>
+                <li>
+                  d) right to restriction of processing (art. 18 GDPR) - In addition, you may request restriction of
+                  processing of your personal data, if (i) you contest the accuracy of your personal data, for a period
+                  during which its accuracy is being verified, (ii) personal data has been processed unlawfully (instead
+                  of requesting erasure of the data), or (iii) we no longer need the personal data for the purposes
+                  referred to above, but you need it for the establishment, exercise or defence of legal claims, (iv)
+                  you object to your personal data being processed on the legal grounds of a legitimate interest, for a
+                  period during which it is being verified whether there are legitimate grounds for continued processing
+                  thereof,{' '}
+                </li>
+                <li>
+                  e) right to portability (art. 20 GDPR) - you have the right to have personal data, which you have
+                  provided to us for the purposes of performing the contract or on the grounds of your consent and which
+                  we process using automated means, transferred to another organization, if technically possible,{' '}
+                </li>
+                <li>
+                  f) right to object (art. 21 GDPR) - you may object, for reasons related to your particular situation,
+                  to your personal data being processed on the legal grounds of a legitimate interest. In the event of
+                  such objection, we will cease processing your personal data unless compelling legitimate grounds for
+                  continued processing or for the establishment, exercise or defense of legal claims are demonstrated,{' '}
+                </li>
+                <li>
+                  g) right to lodge a complaint - if you are dissatisfied with our handling of a complaint or do not
+                  agree with the resolution proposed by us, you may make a complaint to the Office for Personal Data
+                  Protection, residing at Hraničná 12, 820 07 Bratislava, Slovak Republic (dataprotection.gov.sk).
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -273,7 +295,8 @@ const TermsEn = () => {
               consent to such international data transfers. We have implemented safeguards to ensure an adequate level
               of data protection where your personal information is transferred to countries outside the EEA. For
               further details on the transfer of your personal information, including a list of the organizations with
-              whom said information may be shared, please reach out to our team at legal@SmartPablo.com.
+              whom said information may be shared, please reach out to our team at{' '}
+              <a href="mailto:legal@smartpablo.com">legal@SmartPablo.com</a>.
             </div>
           </div>
           <div className="article">
@@ -296,7 +319,7 @@ const TermsEn = () => {
             <div className="paragraph">
               It is our goal to make our privacy practices easy to understand. If you have questions, concerns or if you
               would like more detailed information, please email our data protection representatives at:
-              legal@SmartPablo.com.
+              <a href="mailto:legal@smartpablo.com">legal@SmartPablo.com</a>.
             </div>
           </div>
         </div>
