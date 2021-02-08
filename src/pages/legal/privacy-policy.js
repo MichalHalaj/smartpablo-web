@@ -7,7 +7,7 @@ import PrivacySK from '../../components/legal/privacy-sk';
 const PrivacyPolicy = () => {
   const intl = useIntl();
   return (
-    <Layout className="privacy-policy">
+    <Layout className="terms-of-services privacy-policy">
       {intl.locale === 'en' && <PrivacyEN />}
       {intl.locale === 'sk' && <PrivacySK />}
     </Layout>
