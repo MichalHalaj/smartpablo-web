@@ -2,7 +2,8 @@ footer {
   background-color: #313131;
   padding: 0.5rem 0;
 
-  font-size: 90%;
+  font-size: 0.8rem;
+  // font-size: 90%;
   color: $gray-300;
 
   z-index: $z-footer;
@@ -68,6 +69,7 @@ footer {
 
   .links {
     display: flex;
+    // font-size: 0.8rem;
 
     ul {
       margin: 0 auto;

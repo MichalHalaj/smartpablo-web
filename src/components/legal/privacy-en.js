@@ -16,18 +16,19 @@ const TermsEn = () => {
           <div className="text-muted mb-4">Last Updated: 21 Oct 2020</div>
           <div className="article">
             <div className="paragraph">
-              This is the Privacy Policy of the SmartPablo SK s.r.o. website: smartpablo.com (the "Site"), operated by
-              SmartPablo SK s.r.o (hereinafter referred to as the "SmartPablo", "we", "us", "our" and terms of similar
-              meaning) and our related products and services. It describes the information that we collect from you as
-              part of the normal operation of our Site, and how we disclose and secure this information. It also
-              describes your choices regarding use, access and correction of your personal information. By accepting the
-              Privacy Policy in registration or by visiting and using the Site, you expressly consent to our collection,
-              use and disclosure of your personal information in accordance with this Privacy Policy. This Privacy
-              Policy is incorporated into and subject to our Terms of Use. Capitalized terms not defined in this Privacy
-              Policy take the meaning assigned to them in the Terms of Service. This document describes how we treat
-              personal data of natural persons while complying with Regulation (EU) 2016/679 of the European Parliament
-              and of the Council – the General Data Protection Regulation, also known as the GDPR (the "GDPR"). This
-              Privacy Policy represents the fulfillment of our information obligation as a controller in respect of data
+              This is the Privacy Policy of the SmartPablo SK s.r.o. website:{' '}
+              <a href="https://www.smartpablo.com">SmartPablo.com</a> (the "Site"), operated by SmartPablo SK s.r.o
+              (hereinafter referred to as the "SmartPablo", "we", "us", "our" and terms of similar meaning) and our
+              related products and services. It describes the information that we collect from you as part of the normal
+              operation of our Site, and how we disclose and secure this information. It also describes your choices
+              regarding use, access and correction of your personal information. By accepting the Privacy Policy in
+              registration or by visiting and using the Site, you expressly consent to our collection, use and
+              disclosure of your personal information in accordance with this Privacy Policy. This Privacy Policy is
+              incorporated into and subject to our Terms of Use. Capitalized terms not defined in this Privacy Policy
+              take the meaning assigned to them in the Terms of Service. This document describes how we treat personal
+              data of natural persons while complying with Regulation (EU) 2016/679 of the European Parliament and of
+              the Council – the General Data Protection Regulation, also known as the GDPR (the "GDPR"). This Privacy
+              Policy represents the fulfillment of our information obligation as a controller in respect of data
               subjects within the meaning of Article 13 of the GDPR.
             </div>
           </div>
@@ -318,7 +319,7 @@ const TermsEn = () => {
 
             <div className="paragraph">
               It is our goal to make our privacy practices easy to understand. If you have questions, concerns or if you
-              would like more detailed information, please email our data protection representatives at:
+              would like more detailed information, please email our data protection representatives at{' '}
               <a href="mailto:legal@smartpablo.com">legal@SmartPablo.com</a>.
             </div>
           </div>

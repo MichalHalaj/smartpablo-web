@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="stretch">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3">
+            <div className="col-lg-2">
               <div className="brand">
                 <Link className="logo" to="/">
                   <img
@@ -21,7 +21,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="col-lg-7">
+            <div className="col-lg-8">
               <div className="links">
                 <ul className="list-unstyled">
                   <li>
@@ -31,6 +31,9 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link to="/legal/terms-of-services">Terms of Services</Link>
+                  </li>
+                  <li>
+                    <Link to="/legal/privacy-policy">Privacy Policy</Link>
                   </li>
                   <li>
                     <Link to="/blog">Blog</Link>
