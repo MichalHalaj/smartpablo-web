@@ -100,5 +100,7 @@
   "contact.formSection.form.message.placeholder": "Enter your message here...",
   "contact.formSection.form.button": "Send message",
   "contact.formSection.form.message.heading": "Thank you!",
-  "contact.formSection.form.message.text": "We will get in touch with you within a working day"
+  "contact.formSection.form.message.text": "We will get in touch with you within a working day",
+
+  "features.usSalesTax.pageTitle": "SmartPablo.com - US Sales Tax mastered"
 }
