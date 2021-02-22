@@ -18,14 +18,14 @@ html, body {
 body {
     
     // margin due to footer
-    margin-bottom: 10rem;
+    margin-bottom: $footer-height;
     
     @include media-breakpoint-down(md) {
-        margin-bottom: 15rem;
+        margin-bottom: $footer-height * 2;
     }
     
     @include media-breakpoint-down(sm) {
-        margin-bottom: 20rem;
+        margin-bottom: $footer-height * 3;
     }
 }
 
@@ -33,20 +33,12 @@ body {
   height: 3.5rem;
 }
 
-$footer-height: 3rem;
-
 #app-container {
   position: relative;
   min-height: 100%;
-
-  margin-bottom: -$footer-height;
-
-  > .push {
-    height: $footer-height;
-  }
 }
 
-footer, .push {
+footer {
   min-height: $footer-height;
   height: auto;
 }
