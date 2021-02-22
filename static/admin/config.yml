@@ -583,7 +583,7 @@ collections:
             widget: string
   - label: 'Blog in English'
     name: english_posts
-    folder: _posts
+    folder: _posts/en
     create: true
     filter: { field: 'language', value: 'en' }
     fields:
@@ -592,7 +592,7 @@ collections:
       - { label: 'Body', name: 'body', widget: markdown }
   - label: 'Blog in Slovak'
     name: slovak_posts
-    folder: _posts
+    folder: _posts/sk
     create: true
     filter: { field: 'language', value: 'sk' }
     fields:
