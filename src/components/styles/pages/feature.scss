@@ -1,0 +1,86 @@
+.feature {
+  @at-root #gatsby-focus-wrapper > div#{&} {
+    #app-header {
+        background-color: $pablo-modra-moja;
+    }
+
+    .navbar-main {
+        background-color: $pablo-modra-moja;
+
+        &.nav-scrolled {
+        background-color: $pablo-modra-moja;
+        }
+    }
+  }
+
+  .hero-section {
+    background-color: $pablo-modra-moja;
+
+    padding: 5rem 3rem;
+    text-align: center;
+
+    .hero-title {
+      font-size: 3rem;
+      line-height: 1;
+
+      h1 {
+        margin-bottom: 0;
+        line-height: 1.2;
+        color: $pablo-zelena-moja;
+      }
+
+      p {
+        margin-bottom: 0;
+        color: white;
+      }
+    }
+  }
+
+  
+
+  .included-section {
+    background-color: white;
+
+    // background-image: url("/assets//curve.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% auto;
+
+    padding-top: 7rem;
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+
+      font-size: 1.5rem;
+
+      li {
+        margin: 0 0 1rem 0;
+        padding: 0.5rem 0.5rem 0.5rem 4rem;
+
+        background-image: url('/assets/pricing/check.svg');
+        background-repeat: no-repeat;
+        background-position: 0;
+        // background-size: 2rem;
+
+        &::first-letter {
+          text-transform: capitalize;
+        }
+      }
+    }
+
+    @include media-breakpoint-up(sm) {
+      ul {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+
+        // font-size: 2rem;
+
+        li {
+          padding: 1rem 1rem 1rem 4rem;
+        }
+      }
+    }
+  }
+}
